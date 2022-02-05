@@ -4,6 +4,8 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ---------------- HEADER ------------------ */
+
 header {
 	display: flex;
 	justify-content: center;
@@ -46,6 +48,86 @@ nav a:hover {
 	color: white;
 }
 
+/* ---------------- SECTION-BANNER ------------------ */
+
+#banner {
+	display: flex;
+	justify-content: center;
+	background-image: url('../images/img1.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 670px;
+}
+
+.column {
+	flex-direction: column;
+	
+}
+
+#banner .container {
+
+}
+
+.banner_headline {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.527);
+	max-width: 400px;
+}
+
+.banner_headline h1 {
+	font-size: 70px;
+	color: #FFFFFF;
+}
+
+.banner_headline h2 {
+	font-size: 21px;
+	color: #FFFFFF;
+	margin-top: 30px;
+}
+
+.banner_options {
+	height: 210px;
+	display: flex;
+
+}
+
+.banner1, .banner2, .banner3 {
+	flex: 1;
+	padding: 20px;
+	color: white;
+}
+
+.banner1 {
+	background-color: #39aae1;
+}
+
+.banner2 {
+	background-color: #0079c7;
+}
+
+.banner3 {
+	background-color: #2b4c99;
+}
+
+.banner_tittle {
+	font-size: 21px;
+}
+
+.banner_desc {
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.banner_options a {
+	text-decoration: none;
+	border: 1px solid white;
+	display: inline-block;
+	padding: 5px;
+}
 
 /* 
 
