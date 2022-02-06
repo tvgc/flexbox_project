@@ -143,6 +143,51 @@ nav a:hover {
 	padding-bottom: 10px;
 }
 
+/* ---------------- SECTION-WIDGET ------------------ */
+
+#geral {
+	display: flex;
+	justify-content: center;
+}
+
+#geral section {
+	flex: 2;
+}
+
+#geral aside {
+	flex: 1;
+}
+
+.widget_title_text {
+	color: black;
+	font-weight: 600;
+}
+
+.widget_title_bar {
+	width: 50px;
+	height: 3px;
+	background-color: #36a9e1;
+	margin-top: 10px;
+}
+
+.widget_departments {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.widget_departments .square {
+	width: 150px;
+	height: 150px;
+	background-color: #36a9e1;
+}
+
+.widget_departments .column {
+	display: flex;
+	row-gap: 20px;
+}
+
 /* 
 
 * {
