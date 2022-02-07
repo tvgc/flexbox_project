@@ -5,7 +5,7 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ---------------- HEADER ------------------ */
+/* -------------------------------- HEADER ---------------------------------- */
 
 header {
 	display: flex;
@@ -49,7 +49,7 @@ nav a:hover {
 	color: white;
 }
 
-/* ---------------- SECTION-BANNER ------------------ */
+/* -------------------------------- SECTION-BANNER ---------------------------------- */
 
 #banner {
 	display: flex;
@@ -143,7 +143,7 @@ nav a:hover {
 	padding-bottom: 10px;
 }
 
-/* ---------------- SECTION-WIDGET ------------------ */
+/* -------------------------------- SECTION-WIDGET ---------------------------------- */
 
 #geral {
 	display: flex;
@@ -170,6 +170,17 @@ nav a:hover {
 	margin-top: 10px;
 }
 
+.widget {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* ---------------- Widget-Latest News ------------------ */
+
+
+
+/* ---------------- Widget-Departments ------------------ */
+
 .widget_departments {
 	display: flex;
 	justify-content: space-between;
@@ -186,6 +197,32 @@ nav a:hover {
 .widget_departments .column {
 	display: flex;
 	row-gap: 20px;
+}
+
+/* ---------------- Widget-Appointment ------------------ */
+
+.widget_appoin {
+	display: flex;
+	flex-direction: column;
+	height: 200px;
+}
+
+.widget_appoin .item1 {
+	flex: 2;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.widget_appoin .item2 {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.widget_appoin .item1, .item2 {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.205);
 }
 
 /* 
